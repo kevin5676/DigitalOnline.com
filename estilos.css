@@ -1,0 +1,175 @@
+/*globales*/
+
+*{
+
+	margin-top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+
+}
+html body{
+	background-color: #84e190;
+}
+/*header*/
+.header-1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Otomanopee One', sans-serif;
+}
+/*nav*/
+.nav-1{
+	padding: 20px;
+	justify-content: space-between;
+	text-align: center;
+	background-color: #26f7aa;
+
+}
+
+.nav-1 a{
+	font-family: 'Otomanopee One', sans-serif;
+	padding: 20px;
+	color: black ;
+	text-decoration: none;
+	margin-right: 70px;
+}
+
+.nav-1 a:hover {
+	background-color: black;
+	color: white;
+}
+
+.texto{
+	text-align: center;
+	justify-content: center;
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 18px;
+}
+
+.pregunta{
+	text-align: center;
+	font-family: 'Otomanopee One', sans-serif;
+	font-size: 18px;
+	margin-top: 70px;
+
+}
+
+.boton-1{
+	text-decoration: none;
+
+}
+
+/*centro*/
+.main-1{
+	justify-content: safe right;
+	
+	
+
+}
+.contenedor-padre{
+
+
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	background-color: white;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	width: 800px;
+	height: 500px;
+	padding: 10px;
+	box-shadow: -10px 14px 8px #b3b3b3;
+}
+
+.contenedor-1{
+	border-radius: 15px;
+	font-family: arial;
+	margin-top: 20px;
+	border: 3px solid #7a7a7a;
+	width: 200px;
+	height: 380px;
+	margin-right: 10px;
+}
+.contenedor-2{
+	border-radius: 15px;
+	font-family: arial;
+	margin-top: 20px;
+	border: 3px solid #7a7a7a;
+	width: 200px;
+	height: 380px;
+	margin-right: 10px;
+}
+.contenedor-3{
+	border-radius: 15px;
+	font-family: arial;
+	margin-top: 20px;
+	border: 3px solid #7a7a7a;
+	width: 200px;
+	height: 380px;
+	margin-right: 10px;
+}
+
+b{	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+
+}
+
+.contenedor-1:hover{
+
+	cursor: pointer;
+
+}.contenedor-2:hover{
+
+	cursor: pointer;
+
+}.contenedor-3:hover{
+
+	cursor: pointer;
+
+}
+
+
+.footer-1{
+	padding: 20px;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+@media (max-width: 700px){
+	.nav-1 a{
+		display: block;
+		flex-direction: column;
+	}
+
+	.contenedor-padre{
+
+		margin: 0 auto;
+		display: block;
+		height: 80rem;
+		width: 230px;
+	}
+
+	.contenedor-1, .contenedor-2, .contenedor-3{
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+
+	.nav-1 a:hover{
+		
+		
+	}
+
+
+}
